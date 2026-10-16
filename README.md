@@ -1,24 +1,25 @@
 # portfolio-starter · 作品集启动包
 
 > 云南师范大学 · 网络空间安全 · 2025 级 · 大二上
-> 目标：渗透测试实习（主）+ 安全运维（辅）。这个仓库是你的**求职门面 + 知识库 + 工具库**三合一。
+> 目标：渗透测试实习（主）+ 安全运维（辅）。这个仓库是你的**求职门面 + 工具库**（知识库已拆为独立的 security-notes 仓库）。
 
 ## 目录结构
 
 ```
-portfolio-starter/
-├── README.md                        ← 本文件
-├── 从0开始行动清单.md                ← 主文档：从装 git 到进入学习节奏的完整步骤
-├── GitHub-上手指南.md                ← 从注册到 Pin 的 5 步图文指南 + git 速查
-├── github-profile-README.md         ← GitHub 个人主页模板（改占位符即可）
-├── docker-靶场一键搭建.md            ← DVWA/Pikachu/upload-labs/sqli-labs 一键部署
-├── .gitignore                       ← 全局忽略规则（密钥/日志/缓存不提交）
-├── py-portscan/                     ← 第一个 Python 工具：多线程端口扫描器
+portfolio-starter/          ← 本仓库（GitHub: hypergoingcoin/portfolio-starter）
+├── README.md                ← 本文件
+├── GitHub-上手指南.md        ← 从注册到 Pin 的 5 步指南 + git 速查 + FAQ
+├── github-profile-README.md ← GitHub 个人主页模板（改占位符即可）
+├── docker-靶场一键搭建.md    ← DVWA/Pikachu/upload-labs/sqli-labs 一键部署
+├── .gitignore               ← 全局忽略规则（密钥/日志/缓存不提交）
+├── py-portscan/             ← 第一个 Python 工具：多线程端口扫描器
 │   ├── portscan.py
 │   └── README.md
-├── security-notes/                  ← 个人知识库骨架（按主题分目录 + 笔记模板）
-│   └── README.md
-└── articles/                        ← CSDN 文章初稿存放处（发文后把链接也存这里）
+└── articles/                ← CSDN 文章初稿存放处（发文后把链接也存这里）
+
+工作区其他位置:
+├── 从0开始行动清单.md        ← 主文档（在工作区根目录，不属于本仓库）
+└── security-notes/          ← 知识库，独立成仓（GitHub: hypergoingcoin/security-notes）
 ```
 
 ## 上手顺序（第一次用，严格按这个顺序）
@@ -28,7 +29,7 @@ portfolio-starter/
 3. 照《GitHub-上手指南.md》完成第一次 `git init / add / commit / push`
 4. 跑 `py-portscan`，读源码，改一改（比如加个端口范围参数）
 5. 照《docker-靶场一键搭建.md》起靶场，开始刷
-6. 每次实验后：写笔记进 `security-notes/` → `git commit` → 每周更新一次主页 README
+6. 每次实验后：写笔记进工作区根目录的 `security-notes/`（独立仓库）→ `git commit` → 每周更新一次主页 README
 
 ## 三条使用原则
 

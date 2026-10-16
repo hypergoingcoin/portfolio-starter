@@ -35,13 +35,13 @@
 
 ## 📌 项目
 
-- [py-portscan](../portfolio-starter) —— 多线程端口扫描器（Python，学习用）
-- [security-notes](../security-notes) —— 个人安全知识库与靶场 Writeup
+- [portfolio-starter](https://github.com/hypergoingcoin/portfolio-starter) —— 作品集启动包：多线程端口扫描器 + 安全知识库 + 靶场部署
+- [security-notes](https://github.com/hypergoingcoin/security-notes) —— 个人安全知识库与靶场 Writeup（待建）
 
 ## 📫 找到我
 
-- CSDN：https://blog.csdn.net/你的ID （文章都发在这）
-- Email：你的邮箱@xxx.com
+- CSDN：https://blog.csdn.net/你的CSDN-ID （文章都发在这）
+- Email：hypergoingcoin@gmail.com
 
 ---
 
