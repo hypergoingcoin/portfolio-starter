@@ -1,0 +1,28 @@
+# ===== 仓库全局忽略规则（提交前git会自动跳过这些文件）=====
+# 作用：防止把缓存、密钥、日志等不该公开的东西提交到 GitHub
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 敏感信息：密码、Token、私钥、配置文件 —— 绝不提交！
+*.pem
+*.key
+.env
+secrets.*
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 日志与扫描输出（可能包含敏感信息）
+*.log
+scan_results/
